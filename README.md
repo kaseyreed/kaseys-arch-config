@@ -38,14 +38,15 @@ https://github.com/siduck76/bspwm-dotfiles
 
 # TODO:
 
-- [ ] Much better sxhkdrc config (think macos inspiried... i hate that fucking win key)
-- [ ] System Notifications
+- [x] Part 1: Much better sxhkdrc config (think macos inspiried... i hate that fucking win key)
+- [x] System Notifications (dunt already installed.)
 - [ ] conky
 - [ ] Lightdm Config (or maybe I just get rid of this entirely...)
 - [ ] Grub Config and theming
 - [ ] Setup zinit and zsh and terminal
 - [ ] Drop down terminal? Might have an easier way to do this with bspwm
 - [ ] Setup git configuration for personal github
+- [ ] Part 2: Even better sxhdrc.
 
 ## General System Cleanup
 - [ ] make install artifacts
