@@ -23,6 +23,7 @@
 * picom (prettyish animations)
 * openssh
 * zsh zsh-completions
+* flameshot (for screenshots)
 
 ## via yay
 * codium slack-desktop spotify
@@ -68,3 +69,8 @@ https://github.com/siduck76/bspwm-dotfiles
 ## Bugs
 * Firefox window opens terribly sometimes
 * Every so often light dm fails to start, likley a race condition with the video card driver init.
+
+
+### 8/30/2021 
+
+![Kaseys Desktop v0](kaseys-desktop-v0.png)
