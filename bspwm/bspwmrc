@@ -13,3 +13,8 @@ bspc config gapless_monocle 	true
 
 # Example bspc rule
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
+
+# Launch Polybar (and a few other things...)
+picom &
+$HOME/.config/polybar/launch.sh --material
+feh --bg-fill $HOME/.config/wallpapers/hexagons.jpg
