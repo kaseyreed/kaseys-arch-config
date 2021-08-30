@@ -21,6 +21,7 @@
 * xorg-xrandr (to see monitor / resolutions)
 * ttf-font-awesome
 * picom (prettyish animations)
+* openssh
 
 ## via yay
 * codium slack-desktop spotify
@@ -39,6 +40,7 @@ https://github.com/siduck76/bspwm-dotfiles
 
 - [ ] Much better sxhkdrc config (think macos inspiried... i hate that fucking win key)
 - [ ] System Notifications
+- [ ] conky
 - [ ] Lightdm Config (or maybe I just get rid of this entirely...)
 - [ ] Grub Config and theming
 - [ ] Setup zinit and zsh and terminal
