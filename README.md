@@ -22,6 +22,7 @@
 * ttf-font-awesome
 * picom (prettyish animations)
 * openssh
+* zsh zsh-completions
 
 ## via yay
 * codium slack-desktop spotify
@@ -36,6 +37,13 @@
 https://github.com/siduck76/bspwm-dotfiles
 * using for picom config
 
+# Zsh + Zinit
+* Zsh Installed via pacman
+* Zinit installed via:
+
+```zsh
+```
+
 # TODO:
 
 - [x] Part 1: Much better sxhkdrc config (think macos inspiried... i hate that fucking win key)
@@ -43,7 +51,7 @@ https://github.com/siduck76/bspwm-dotfiles
 - [ ] conky
 - [ ] Lightdm Config (or maybe I just get rid of this entirely...)
 - [ ] Grub Config and theming
-- [ ] Setup zinit and zsh and terminal
+- [x] Setup zinit and zsh and terminal
 - [ ] Drop down terminal? Might have an easier way to do this with bspwm
 - [ ] Setup git configuration for personal github
 - [ ] Part 2: Even better sxhdrc.
