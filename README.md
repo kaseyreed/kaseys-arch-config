@@ -24,10 +24,13 @@
 * openssh
 * zsh zsh-completions
 * flameshot (for screenshots)
+* ranger (simple console file manager)
+* libinput-gestures (for trackpad gestures)
+* alsa-utilities
 
 ## via yay
 * codium slack-desktop spotify
-* poly bar
+* polybar
 
 
 # Ricing / Look and Feel
@@ -56,7 +59,8 @@ https://github.com/siduck76/bspwm-dotfiles
 - [ ] Drop down terminal? Might have an easier way to do this with bspwm
 - [x] Setup git configuration for personal github
 - [ ] Part 2: Even better sxhdrc.
-
+- [x] trackpad setup
+ 
 ## General System Cleanup
 - [ ] make install artifacts
 - [ ] old themes, wallpapers we aren't going to use
@@ -64,7 +68,6 @@ https://github.com/siduck76/bspwm-dotfiles
 ## Things to Install
 - [ ] IntellJ + Products
 - [ ] Docker
-
 
 ## Bugs
 * Firefox window opens terribly sometimes

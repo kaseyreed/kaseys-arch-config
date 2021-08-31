@@ -24,5 +24,5 @@ bspc config presel_feedback_color "#6272a4"
 # Launch Polybar (and a few other things...)
 picom &
 $HOME/.config/polybar/launch.sh --material
-feh --bg-fill $HOME/.config/wallpapers/hexagons.jpg
+feh --bg-fill $HOME/.config/wallpapers/breath-of-the-wild.jpg
 
