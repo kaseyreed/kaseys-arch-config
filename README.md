@@ -54,7 +54,7 @@ https://github.com/siduck76/bspwm-dotfiles
 - [ ] Grub Config and theming
 - [x] Setup zinit and zsh and terminal
 - [ ] Drop down terminal? Might have an easier way to do this with bspwm
-- [ ] Setup git configuration for personal github
+- [x] Setup git configuration for personal github
 - [ ] Part 2: Even better sxhdrc.
 
 ## General System Cleanup
