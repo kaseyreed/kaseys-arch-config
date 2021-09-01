@@ -53,8 +53,9 @@ https://github.com/siduck76/bspwm-dotfiles
 - [x] Part 1: Much better sxhkdrc config (think macos inspiried... i hate that fucking win key)
 - [x] System Notifications (dunt already installed.)
 - [ ] conky
-- [ ] Lightdm Config (or maybe I just get rid of this entirely...)
+- [x] (removed) Lightdm Config (or maybe I just get rid of this entirely...)
 - [ ] Grub Config and theming
+- [ ] apply adapta theme to the rest of your apps (that you can...)
 - [x] Setup zinit and zsh and terminal
 - [ ] Drop down terminal? Might have an easier way to do this with bspwm
 - [x] Setup git configuration for personal github
