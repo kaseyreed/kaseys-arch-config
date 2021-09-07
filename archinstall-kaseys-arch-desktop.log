@@ -1,0 +1,132 @@
+Disk states before installing: {'blockdevices': [{'name': 'loop0', 'fstype': 'squashfs', 'fsver': '4.0', 'label': None, 'uuid': None, 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/airootfs'], 'type': 'loop', 'size': '662.1M'}, {'name': 'sda', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '3.6T'}, {'name': 'sdb', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G', 'children': [{'name': 'sdb1', 'fstype': 'vfat', 'fsver': 'FAT32', 'label': 'NO_LABEL', 'uuid': '04C6-9C76', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '300M'}, {'name': 'sdb2', 'fstype': 'btrfs', 'fsver': None, 'label': None, 'uuid': '9099123e-4222-4162-957b-dd8f024a6e85', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '476.6G'}]}, {'name': 'sdc', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202108', 'uuid': '2021-08-01-08-29-48-00', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '29.7G', 'children': [{'name': 'sdc1', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202108', 'uuid': '2021-08-01-08-29-48-00', 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/bootmnt'], 'type': 'part', 'size': '747M'}, {'name': 'sdc2', 'fstype': 'vfat', 'fsver': 'FAT16', 'label': 'ARCHISO_EFI', 'uuid': 'BAD7-D375', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '84M'}]}, {'name': 'nvme0n1', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '931.5G', 'children': [{'name': 'nvme0n1p1', 'fstype': 'vfat', 'fsver': 'FAT32', 'label': None, 'uuid': '3741-44C1', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '512M'}, {'name': 'nvme0n1p2', 'fstype': 'btrfs', 'fsver': None, 'label': None, 'uuid': '04f7861b-c485-4f76-9a8c-57e3783db19f', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '931G'}]}]}
+You can skip selecting a drive and partitioning and use whatever drive-setup is mounted at /mnt (experimental)
+Disk states before installing: {'blockdevices': [{'name': 'loop0', 'fstype': 'squashfs', 'fsver': '4.0', 'label': None, 'uuid': None, 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/airootfs'], 'type': 'loop', 'size': '662.1M'}, {'name': 'sda', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '3.6T'}, {'name': 'sdb', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '476.9G'}, {'name': 'sdc', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202108', 'uuid': '2021-08-01-08-29-48-00', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '29.7G', 'children': [{'name': 'sdc1', 'fstype': 'iso9660', 'fsver': 'Joliet Extension', 'label': 'ARCH_202108', 'uuid': '2021-08-01-08-29-48-00', 'fsavail': '0', 'fsuse%': '100%', 'mountpoints': ['/run/archiso/bootmnt'], 'type': 'part', 'size': '747M'}, {'name': 'sdc2', 'fstype': 'vfat', 'fsver': 'FAT16', 'label': 'ARCHISO_EFI', 'uuid': 'BAD7-D375', 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'part', 'size': '84M'}]}, {'name': 'nvme0n1', 'fstype': None, 'fsver': None, 'label': None, 'uuid': None, 'fsavail': None, 'fsuse%': None, 'mountpoints': [None], 'type': 'disk', 'size': '931.5G'}]}
+You can skip selecting a drive and partitioning and use whatever drive-setup is mounted at /mnt (experimental)
+Verifying that additional packages exist (this might take a few seconds)
+Invalid package names: ['yeh']
+Verifying that additional packages exist (this might take a few seconds)
+Hardware time and other post-configuration steps might be required in order for NTP to work. For more information, please check the Arch wiki.
+-- Guided template chosen (with below config) --
+{
+    "!root-password": "******",
+    "audio": null,
+    "bootloader": "grub-install",
+    "filesystem": "btrfs",
+    "harddrive": {
+        "model": "Samsung SSD 980 1TB",
+        "path": "/dev/nvme0n1",
+        "size": "931.5G"
+    },
+    "hostname": "kaseys-arch-desktop",
+    "kernels": [
+        "linux"
+    ],
+    "keyboard-language": "us",
+    "mirror-region": {
+        "United States": {
+            "https://america.mirror.pkgbuild.com/$repo/os/$arch": true,
+            "https://arch.hu.fo/archlinux/$repo/os/$arch": true,
+            "https://arch.mirror.constant.com/$repo/os/$arch": true,
+            "https://arch.mirror.square-r00t.net/$repo/os/$arch": true,
+            "https://archmirror1.octyl.net/$repo/os/$arch": true,
+            "https://arlm.tyzoid.com/$repo/os/$arch": true,
+            "https://dfw.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "https://ftp.sudhip.com/archlinux/$repo/os/$arch": true,
+            "https://iad.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "https://iad.mirrors.misaka.one/archlinux/$repo/os/$arch": true,
+            "https://mirror.arizona.edu/archlinux/$repo/os/$arch": true,
+            "https://mirror.dal10.us.leaseweb.net/archlinux/$repo/os/$arch": true,
+            "https://mirror.ette.biz/archlinux/$repo/os/$arch": true,
+            "https://mirror.hackingand.coffee/arch/$repo/os/$arch": true,
+            "https://mirror.kaminski.io/archlinux/$repo/os/$arch": true,
+            "https://mirror.lty.me/archlinux/$repo/os/$arch": true,
+            "https://mirror.mia11.us.leaseweb.net/archlinux/$repo/os/$arch": true,
+            "https://mirror.phx1.us.spryservers.net/archlinux/$repo/os/$arch": true,
+            "https://mirror.pit.teraswitch.com/archlinux/$repo/os/$arch": true,
+            "https://mirror.sfo12.us.leaseweb.net/archlinux/$repo/os/$arch": true,
+            "https://mirror.stephen304.com/archlinux/$repo/os/$arch": true,
+            "https://mirror.theash.xyz/arch/$repo/os/$arch": true,
+            "https://mirror.wdc1.us.leaseweb.net/archlinux/$repo/os/$arch": true,
+            "https://mirrors.kernel.org/archlinux/$repo/os/$arch": true,
+            "https://mirrors.lug.mtu.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.mit.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.ocf.berkeley.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.radwebhosting.com/archlinux/$repo/os/$arch": true,
+            "https://mirrors.rit.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.rutgers.edu/archlinux/$repo/os/$arch": true,
+            "https://mirrors.sonic.net/archlinux/$repo/os/$arch": true,
+            "https://mirrors.xtom.com/archlinux/$repo/os/$arch": true,
+            "https://ord.mirror.rackspace.com/archlinux/$repo/os/$arch": true,
+            "https://plug-mirror.rcac.purdue.edu/archlinux/$repo/os/$arch": true,
+            "https://repo.ialab.dsu.edu/archlinux/$repo/os/$arch": true,
+            "https://zxcvfdsa.com/arch/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "NetworkManager": true,
+        "nic": "Use NetworkManager to control and manage your internet connection"
+    },
+    "ntp": true,
+    "packages": [
+        "alacritty",
+        "firefox",
+        "bspwm",
+        "bashtop",
+        "flameshot",
+        "neofetch",
+        "picom",
+        "sxhkd",
+        "pavucontrol",
+        "dunst",
+        "git",
+        "base-devel",
+        "zsh",
+        "zsh-completions"
+    ],
+    "profile": {
+        "path": "/usr/lib/python3.9/site-packages/archinstall/profiles/xorg.py"
+    },
+    "script": "guided",
+    "superusers": {
+        "kasey": {
+            "!password": "******"
+        }
+    },
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "UTC",
+    "users": {}
+}
+Wiping BlockDevice(/dev/nvme0n1) by using partition format 1
+Using and formatting the entire BlockDevice(/dev/nvme0n1).
+Adding partition to BlockDevice(/dev/nvme0n1)
+Adding partition to BlockDevice(/dev/nvme0n1)
+Set the root partition Partition(path=/dev/nvme0n1p2, size=931G, fs=btrfs) to use filesystem btrfs.
+Formatting /dev/nvme0n1p1 -> vfat
+Formatting /dev/nvme0n1p2 -> btrfs
+Mounting Partition(path=/dev/nvme0n1p2, size=931G, fs=btrfs, rel_mountpoint=/) to /mnt
+Mounting Partition(path=/dev/nvme0n1p1, size=512M, fs=vfat, rel_mountpoint=/boot) to /mnt/boot
+Waiting for automatic mirror selection (reflector) to complete.
+A new package mirror-list has been created: /etc/pacman.d/mirrorlist
+Installing packages: ['base', 'base-devel', 'linux-firmware', 'linux', 'btrfs-progs', 'intel-ucode']
+Installing packages: ('grub',)
+Adding bootloader grub-install to Partition(path=/dev/nvme0n1p1, size=-1, fs=vfat, mounted=/mnt/boot)
+Installing packages: ('grub',)
+Installing packages: ('efibootmgr',)
+Installing packages: ('networkmanager',)
+Enabling service NetworkManager.service
+No audio server will be installed.
+Installing packages: ['alacritty', 'firefox', 'bspwm', 'bashtop', 'flameshot', 'neofetch', 'picom', 'sxhkd', 'pavucontrol', 'dunst', 'git', 'base-devel', 'zsh', 'zsh-completions']
+Installing network profile Profile(xorg)
+Installing packages: ('xorg-server xorg-xinit nvidia',)
+Creating user kasey
+Setting password for kasey
+Enabling sudo permissions for kasey.
+Installing and activating NTP.
+Installing packages: ('ntp',)
+Enabling service ntpd
+Setting password for root
+Keyboard language for this installation is now set to: us
+For post-installation tips, see https://wiki.archlinux.org/index.php/Installation_guide#Post-installation
+Updating /mnt/etc/fstab
+Installation completed without any errors. You may now reboot.
