@@ -30,7 +30,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 alias ls='ls --color=auto'
 alias reload='source ~/.zshrc'
 
-export GITHUB_ACCESS_TOKEN=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
+export GITHUB_ACCESS_TOKEN=REDACTED
 source /usr/share/nvm/init-nvm.sh
 
 HISTFILE=~/.zsh_history
