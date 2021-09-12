@@ -21,6 +21,9 @@ change_color() {
 	  bg:   #${BG}FF;
 	  fg:   #${RFG}FF;
 	  ac:   #${AC}FF;
+
+          background-color: @al;
+          text-color:       inherit;
 	}
 	EOF
 	

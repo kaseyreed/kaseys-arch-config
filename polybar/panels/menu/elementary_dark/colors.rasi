@@ -6,4 +6,7 @@
   bga:  #363A3FFF;
   fg:   #F5F5F5FF;
   ac:   #00000066;
+
+  background-color: @al;
+  text-color:       inherit;
 }

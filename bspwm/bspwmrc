@@ -20,6 +20,8 @@ bspc config presel_feedback_color "#6272a4"
 
 # Example bspc rule
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
+wmname LG3D &
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
 
 # Launch Polybar (and a few other things...)
 picom &

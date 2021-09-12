@@ -7,4 +7,7 @@
   fg:   #EAEAEAFF;
   ac:   #536579FF;
   bd:	#000000FF;
+
+  background-color: @al;
+  text-color:       inherit;
 }

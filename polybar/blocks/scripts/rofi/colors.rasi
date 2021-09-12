@@ -8,4 +8,7 @@
   fg:   #1C1E20FF;
   ac:   #EBD369FF;
   se:   #EBD36940;
+
+  background-color: @al;
+  text-color:       inherit;
 }

@@ -26,6 +26,9 @@ change_color() {
 	  fga:  #CACACAFF;
 	  fg:   #CACACAFF;
 	  ac:   ${AC}FF;
+
+          background-color: @al;
+          text-color:       inherit;
 	}
 	EOF
 	

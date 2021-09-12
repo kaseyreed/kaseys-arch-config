@@ -26,6 +26,9 @@ change_color() {
 	  bar:  ${MF}FF;
 	  fg:   #2E2E2EFF;
 	  ac:   ${AC}FF;
+
+          background-color: @al;
+          text-color:       inherit;
 	}
 	EOF
 	

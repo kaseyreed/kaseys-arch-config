@@ -75,6 +75,13 @@ https://github.com/siduck76/bspwm-dotfiles
 * Every so often light dm fails to start, likley a race condition with the video card driver init.
 
 
+## Docker
+
+* Install in rootless mode (using sudo all over the place not great - especially when sharing stuff between mac and linux users)
+* https://docs.docker.com/engine/security/rootless/
+* You'll need to install rootless extras from yay `yay -S docker-rootless-extras`
+* You will need to create the /etc/subuid and /etc/subgid files with your username and the right # values. 
+
 ### 8/30/2021 
 
 ![Kaseys Desktop v0](kaseys-desktop-v0.png)

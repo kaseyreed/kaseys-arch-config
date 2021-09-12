@@ -5,4 +5,7 @@
   bg:   #FFFFFFFF;
   fg:   #454545FF;
   ac:   #1565C0FF;
+
+  background-color: @al;
+  text-color:       inherit;
 }

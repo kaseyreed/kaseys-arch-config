@@ -6,4 +6,7 @@
   fg:   #AADEF6FF;
   se:	#1E3136FF;
   bo:	#8EDBF2FF;
+
+  background-color: @al;
+  text-color:       inherit;
 }

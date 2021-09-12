@@ -8,4 +8,7 @@
   bg3:   #1E88E5FF;
   bg4:   #2196F3FF;
   fg:    #FFFFFFFF;
+
+  background-color: @al;
+  text-color:       inherit;
 }
