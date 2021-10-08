@@ -1,3 +1,8 @@
+### Abandoned
+
+Moved various bits out of the .config directory and into smaller repos. 
+Checkout: https://github.com/kaseyreed/dotfiles
+
 # Pacakges Installed at OS Install
 * firefox
 * lightdm
